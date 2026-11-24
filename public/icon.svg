@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- Big Bright Day mark: a sun ON the horizon — five gold rays fanned over a
+       navy plate, a gold half-disc cresting a cream horizon line, and the
+       bright orange at its core.
+
+       The HALF disc is the point: every sun on this site is cut by something,
+       because a whole circle is a sun at noon and a cut one is daybreak.
+
+       The first <rect fill> is what app/apple-icon.tsx reads as the 180x180
+       background plate — the deep navy, so iOS composites the mark onto its
+       own ground rather than onto black. It is drawn across the full viewBox,
+       so at favicon size the plate still reads edge to edge.
+
+       src/app/favicon.ico is the same artwork rasterised at 16/32/48 — see
+       scripts/make-favicon.py. -->
+  <rect width="48" height="48" rx="14" fill="#12204a"/>
+  <g stroke="#ffc83d" stroke-width="3" stroke-linecap="round">
+    <path d="M24 9v5M12.5 14.5l3.4 3.4M35.5 14.5l-3.4 3.4M7.5 27h5M35.5 27h5"/>
+  </g>
+  <path d="M14 33a10 10 0 0120 0z" fill="#ffc83d"/>
+  <circle cx="24" cy="33" r="3.2" fill="#ff6b1a"/>
+  <path d="M9 34h30" stroke="#fbf8f1" stroke-width="2.6" stroke-linecap="round"/>
+</svg>
